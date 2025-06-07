@@ -1,0 +1,61 @@
+2025-06-07 18:27:51.099 -05:00 [INF] Now listening on: http://localhost:5167
+2025-06-07 18:27:51.138 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-07 18:27:51.140 -05:00 [INF] Hosting environment: Development
+2025-06-07 18:27:51.142 -05:00 [INF] Content root path: C:\Users\jadha\Documents\myDotNet\webapi2
+2025-06-07 18:27:58.276 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/errorhandling/error?numerator=10&denominator=2 - null null
+2025-06-07 18:27:58.318 -05:00 [INF] Executing endpoint 'ErrorHandlingController.GetDivisionResult (webapi2)'
+2025-06-07 18:27:58.377 -05:00 [INF] Route matched with {action = "GetDivisionResult", controller = "ErrorHandling"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetDivisionResult(Int32, Int32) on controller ErrorHandlingController (webapi2).
+2025-06-07 18:27:58.403 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-06-07 18:27:58.411 -05:00 [INF] Executed action ErrorHandlingController.GetDivisionResult (webapi2) in 25.444ms
+2025-06-07 18:27:58.423 -05:00 [INF] Executed endpoint 'ErrorHandlingController.GetDivisionResult (webapi2)'
+2025-06-07 18:27:58.425 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/errorhandling/error?numerator=10&denominator=2 - 200 null text/plain; charset=utf-8 154.8957ms
+2025-06-07 18:28:04.623 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/errorhandling/error?numerator=10&denominator=0 - null null
+2025-06-07 18:28:04.640 -05:00 [INF] Executing endpoint 'ErrorHandlingController.GetDivisionResult (webapi2)'
+2025-06-07 18:28:04.644 -05:00 [INF] Route matched with {action = "GetDivisionResult", controller = "ErrorHandling"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetDivisionResult(Int32, Int32) on controller ErrorHandlingController (webapi2).
+2025-06-07 18:28:04.650 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-06-07 18:28:04.653 -05:00 [INF] Executed action ErrorHandlingController.GetDivisionResult (webapi2) in 5.3197ms
+2025-06-07 18:28:04.655 -05:00 [INF] Executed endpoint 'ErrorHandlingController.GetDivisionResult (webapi2)'
+2025-06-07 18:28:04.656 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/errorhandling/error?numerator=10&denominator=0 - 400 null text/plain; charset=utf-8 34.0645ms
+2025-06-07 18:28:10.267 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/products - null null
+2025-06-07 18:28:10.283 -05:00 [INF] Executing endpoint 'ProductController.GetAll (webapi2)'
+2025-06-07 18:28:10.297 -05:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Product]] GetAll() on controller ProductController (webapi2).
+2025-06-07 18:28:10.316 -05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Product, webapi2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-07 18:28:10.345 -05:00 [INF] Executed action ProductController.GetAll (webapi2) in 32.9076ms
+2025-06-07 18:28:10.348 -05:00 [INF] Executed endpoint 'ProductController.GetAll (webapi2)'
+2025-06-07 18:28:10.350 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/products - 200 null application/json; charset=utf-8 83.7478ms
+2025-06-07 18:28:14.697 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/products/1 - null null
+2025-06-07 18:28:14.706 -05:00 [INF] Executing endpoint 'ProductController.GetById (webapi2)'
+2025-06-07 18:28:14.712 -05:00 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Product] GetById(Int32) on controller ProductController (webapi2).
+2025-06-07 18:28:14.718 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-06-07 18:28:14.741 -05:00 [INF] Executed action ProductController.GetById (webapi2) in 24.5964ms
+2025-06-07 18:28:14.744 -05:00 [INF] Executed endpoint 'ProductController.GetById (webapi2)'
+2025-06-07 18:28:14.749 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/products/1 - 404 null application/problem+json; charset=utf-8 52.5308ms
+2025-06-07 18:28:17.444 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/products - application/json 83
+2025-06-07 18:28:17.453 -05:00 [INF] Executing endpoint 'ProductController.Create (webapi2)'
+2025-06-07 18:28:17.461 -05:00 [INF] Route matched with {action = "Create", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Product] Create(Product) on controller ProductController (webapi2).
+2025-06-07 18:28:17.493 -05:00 [INF] Executing CreatedAtActionResult, writing value of type 'Product'.
+2025-06-07 18:28:17.527 -05:00 [INF] Executed action ProductController.Create (webapi2) in 61.315ms
+2025-06-07 18:28:17.533 -05:00 [INF] Executed endpoint 'ProductController.Create (webapi2)'
+2025-06-07 18:28:17.537 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/products - 201 null application/json; charset=utf-8 93.3554ms
+2025-06-07 18:28:24.346 -05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5167/api/products/1 - application/json 98
+2025-06-07 18:28:24.357 -05:00 [INF] Executing endpoint 'ProductController.Update (webapi2)'
+2025-06-07 18:28:24.361 -05:00 [INF] Route matched with {action = "Update", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Product] Update(Int32, Product) on controller ProductController (webapi2).
+2025-06-07 18:28:24.364 -05:00 [INF] Executing OkObjectResult, writing value of type 'Product'.
+2025-06-07 18:28:24.365 -05:00 [INF] Executed action ProductController.Update (webapi2) in 2.3275ms
+2025-06-07 18:28:24.367 -05:00 [INF] Executed endpoint 'ProductController.Update (webapi2)'
+2025-06-07 18:28:24.369 -05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5167/api/products/1 - 200 null application/json; charset=utf-8 22.2678ms
+2025-06-07 18:28:27.987 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/products - null null
+2025-06-07 18:28:27.994 -05:00 [INF] Executing endpoint 'ProductController.GetAll (webapi2)'
+2025-06-07 18:28:27.996 -05:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Product]] GetAll() on controller ProductController (webapi2).
+2025-06-07 18:28:27.999 -05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Product, webapi2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-07 18:28:28.001 -05:00 [INF] Executed action ProductController.GetAll (webapi2) in 2.1264ms
+2025-06-07 18:28:28.003 -05:00 [INF] Executed endpoint 'ProductController.GetAll (webapi2)'
+2025-06-07 18:28:28.004 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/products - 200 null application/json; charset=utf-8 16.6647ms
+2025-06-07 18:28:30.817 -05:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5167/api/products/1 - null null
+2025-06-07 18:28:30.821 -05:00 [INF] Executing endpoint 'ProductController.Delete (webapi2)'
+2025-06-07 18:28:30.831 -05:00 [INF] Route matched with {action = "Delete", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Product] Delete(Int32) on controller ProductController (webapi2).
+2025-06-07 18:28:30.843 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-06-07 18:28:30.845 -05:00 [INF] Executed action ProductController.Delete (webapi2) in 9.0783ms
+2025-06-07 18:28:30.851 -05:00 [INF] Executed endpoint 'ProductController.Delete (webapi2)'
+2025-06-07 18:28:30.853 -05:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5167/api/products/1 - 204 null null 35.7252ms
+2025-06-07 18:30:36.553 -05:00 [INF] Application is shutting down...
