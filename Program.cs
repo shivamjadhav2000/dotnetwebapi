@@ -1,4 +1,6 @@
 
+using System.ComponentModel.DataAnnotations;
+using System.Text.Json;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,7 +14,11 @@ Log.Logger = new LoggerConfiguration()
 
 builder.Host.UseSerilog();
 
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+ .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
+    });
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 
@@ -72,4 +78,5 @@ public class Myservice : IMyservice
         Console.WriteLine($"{Message} - Service created with ID: {_serviceId}");
     }
 }
+
 

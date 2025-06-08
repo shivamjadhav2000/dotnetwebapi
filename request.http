@@ -1,3 +1,5 @@
+GET http://localhost:5167/api/errorhandling/error?numerator=10&denominator=2
+###
 GET http://localhost:5167/api/errorhandling/error?numerator=10&denominator=0
 ###
 ### Get all products
@@ -38,5 +40,62 @@ Content-Type: application/json
 
 ### Delete product by ID
 DELETE http://localhost:5167/api/products/1
+
+
+
+###
+### serialization Test ####
+GET http://localhost:5167/api/serialization/manual-json
+
+###
+### custom serializer ###
+GET http://localhost:5167/api/serialization/custom-json
+
+### json ###
+GET http://localhost:5167/api/serialization/json
+
+### auto ###
+GET http://localhost:5167/api/serialization/auto
+
+
+### Deserialization ###
+POST http://localhost:5167/api/serialization/auto
+Content-Type: application/json
+
+{
+  "UserName": "shivam",
+  "Age": 26,
+  "Gender": "male",
+  "Email": "abc@gmail.com",
+  "ExtraFeild":"extra value"
+}
+
+###
+
+POST http://localhost:5167/api/serialization/json
+Content-Type: application/json
+
+{
+  "UserName": "shivam",
+  "Age": 26,
+  "Gender": "male",
+  "Email": "abcd@gmail.com",
+  "ExtraFeild":"extra value"
+}
+
+###
+POST http://localhost:5167/api/serialization/custom-json
+Content-Type: application/json
+
+{
+  "UserName": "shivam",
+  "Age": 26,
+  "Gender": "male",
+  "Email": "abcd@gmail.com",
+  "ExtraFeild":"extra value"
+}
+
+
+
 
 

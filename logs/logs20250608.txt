@@ -1,0 +1,615 @@
+2025-06-08 15:36:03.553 -05:00 [INF] Now listening on: http://localhost:5167
+2025-06-08 15:36:03.607 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-08 15:36:03.608 -05:00 [INF] Hosting environment: Development
+2025-06-08 15:36:03.608 -05:00 [INF] Content root path: C:\Users\jadha\Documents\myDotNet\webapi2
+2025-06-08 15:36:43.617 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/manual-json - null null
+2025-06-08 15:36:43.668 -05:00 [INF] Executing endpoint 'HTTP: GET /manual-json'
+2025-06-08 15:36:43.690 -05:00 [INF] Write content with HTTP Response ContentType of application/json
+2025-06-08 15:36:43.697 -05:00 [INF] Executed endpoint 'HTTP: GET /manual-json'
+2025-06-08 15:36:43.699 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/manual-json - 200 30 application/json 84.1929ms
+2025-06-08 15:41:50.188 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/custom-json - null null
+2025-06-08 15:41:50.204 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/custom-json - 404 0 null 20.4393ms
+2025-06-08 15:41:50.206 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5167/custom-json, Response status code: 404
+2025-06-08 15:42:39.946 -05:00 [INF] Now listening on: http://localhost:5167
+2025-06-08 15:42:40.010 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-08 15:42:40.013 -05:00 [INF] Hosting environment: Development
+2025-06-08 15:42:40.015 -05:00 [INF] Content root path: C:\Users\jadha\Documents\myDotNet\webapi2
+2025-06-08 15:42:40.530 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/custom-json - null null
+2025-06-08 15:42:40.593 -05:00 [INF] Executing endpoint 'HTTP: GET /custom-json'
+2025-06-08 15:42:40.620 -05:00 [INF] Write content with HTTP Response ContentType of application/json
+2025-06-08 15:42:40.624 -05:00 [INF] Executed endpoint 'HTTP: GET /custom-json'
+2025-06-08 15:42:40.627 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/custom-json - 200 31 application/json 100.3462ms
+2025-06-08 15:43:56.326 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/json - null null
+2025-06-08 15:43:56.339 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/json - 404 0 null 13.8985ms
+2025-06-08 15:43:56.363 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5167/json, Response status code: 404
+2025-06-08 15:44:01.330 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/json - null null
+2025-06-08 15:44:01.351 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/json - 404 0 null 20.3493ms
+2025-06-08 15:44:01.353 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5167/json, Response status code: 404
+2025-06-08 15:44:03.448 -05:00 [INF] Application is shutting down...
+2025-06-08 15:44:11.095 -05:00 [INF] Now listening on: http://localhost:5167
+2025-06-08 15:44:11.164 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-08 15:44:11.169 -05:00 [INF] Hosting environment: Development
+2025-06-08 15:44:11.173 -05:00 [INF] Content root path: C:\Users\jadha\Documents\myDotNet\webapi2
+2025-06-08 15:44:12.495 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/json - null null
+2025-06-08 15:44:12.536 -05:00 [INF] Executing endpoint 'HTTP: GET /json'
+2025-06-08 15:44:12.561 -05:00 [INF] Writing value of type 'Person' as Json.
+2025-06-08 15:44:12.574 -05:00 [INF] Executed endpoint 'HTTP: GET /json'
+2025-06-08 15:44:12.581 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/json - 200 null application/json; charset=utf-8 93.2323ms
+2025-06-08 15:44:17.494 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/manual-json - null null
+2025-06-08 15:44:17.507 -05:00 [INF] Executing endpoint 'HTTP: GET /manual-json'
+2025-06-08 15:44:17.514 -05:00 [INF] Write content with HTTP Response ContentType of application/json
+2025-06-08 15:44:17.520 -05:00 [INF] Executed endpoint 'HTTP: GET /manual-json'
+2025-06-08 15:44:17.523 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/manual-json - 200 30 application/json 29.4243ms
+2025-06-08 15:44:19.726 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/json - null null
+2025-06-08 15:44:19.757 -05:00 [INF] Executing endpoint 'HTTP: GET /json'
+2025-06-08 15:44:19.833 -05:00 [INF] Writing value of type 'Person' as Json.
+2025-06-08 15:44:19.845 -05:00 [INF] Executed endpoint 'HTTP: GET /json'
+2025-06-08 15:44:19.848 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/json - 200 null application/json; charset=utf-8 122.3682ms
+2025-06-08 15:44:23.781 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/manual-json - null null
+2025-06-08 15:44:23.791 -05:00 [INF] Executing endpoint 'HTTP: GET /manual-json'
+2025-06-08 15:44:23.796 -05:00 [INF] Write content with HTTP Response ContentType of application/json
+2025-06-08 15:44:23.797 -05:00 [INF] Executed endpoint 'HTTP: GET /manual-json'
+2025-06-08 15:44:23.800 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/manual-json - 200 30 application/json 18.5257ms
+2025-06-08 15:44:26.924 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/json - null null
+2025-06-08 15:44:26.971 -05:00 [INF] Executing endpoint 'HTTP: GET /json'
+2025-06-08 15:44:26.972 -05:00 [INF] Writing value of type 'Person' as Json.
+2025-06-08 15:44:26.975 -05:00 [INF] Executed endpoint 'HTTP: GET /json'
+2025-06-08 15:44:26.980 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/json - 200 null application/json; charset=utf-8 56.0963ms
+2025-06-08 15:44:29.813 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/manual-json - null null
+2025-06-08 15:44:29.819 -05:00 [INF] Executing endpoint 'HTTP: GET /manual-json'
+2025-06-08 15:44:29.821 -05:00 [INF] Write content with HTTP Response ContentType of application/json
+2025-06-08 15:44:29.915 -05:00 [INF] Executed endpoint 'HTTP: GET /manual-json'
+2025-06-08 15:44:29.959 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/manual-json - 200 30 application/json 146.1792ms
+2025-06-08 15:44:32.584 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/json - null null
+2025-06-08 15:44:32.599 -05:00 [INF] Executing endpoint 'HTTP: GET /json'
+2025-06-08 15:44:32.604 -05:00 [INF] Writing value of type 'Person' as Json.
+2025-06-08 15:44:32.607 -05:00 [INF] Executed endpoint 'HTTP: GET /json'
+2025-06-08 15:44:32.614 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/json - 200 null application/json; charset=utf-8 30.5617ms
+2025-06-08 15:45:26.160 -05:00 [INF] Application is shutting down...
+2025-06-08 15:45:38.798 -05:00 [INF] Now listening on: http://localhost:5167
+2025-06-08 15:45:38.868 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-08 15:45:38.871 -05:00 [INF] Hosting environment: Development
+2025-06-08 15:45:38.874 -05:00 [INF] Content root path: C:\Users\jadha\Documents\myDotNet\webapi2
+2025-06-08 15:45:39.965 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/auto - null null
+2025-06-08 15:45:39.997 -05:00 [INF] Executing endpoint 'HTTP: GET /auto'
+2025-06-08 15:45:40.007 -05:00 [INF] Executed endpoint 'HTTP: GET /auto'
+2025-06-08 15:45:40.010 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/auto - 200 null application/json; charset=utf-8 47.7034ms
+2025-06-08 15:45:47.032 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/json - null null
+2025-06-08 15:45:47.080 -05:00 [INF] Executing endpoint 'HTTP: GET /json'
+2025-06-08 15:45:47.100 -05:00 [INF] Writing value of type 'Person' as Json.
+2025-06-08 15:45:47.102 -05:00 [INF] Executed endpoint 'HTTP: GET /json'
+2025-06-08 15:45:47.105 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/json - 200 null application/json; charset=utf-8 73.4213ms
+2025-06-08 15:45:49.470 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/auto - null null
+2025-06-08 15:45:49.495 -05:00 [INF] Executing endpoint 'HTTP: GET /auto'
+2025-06-08 15:45:49.497 -05:00 [INF] Executed endpoint 'HTTP: GET /auto'
+2025-06-08 15:45:49.498 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/auto - 200 null application/json; charset=utf-8 28.2459ms
+2025-06-08 15:45:51.520 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/manual-json - null null
+2025-06-08 15:45:51.537 -05:00 [INF] Executing endpoint 'HTTP: GET /manual-json'
+2025-06-08 15:45:51.548 -05:00 [INF] Write content with HTTP Response ContentType of application/json
+2025-06-08 15:45:51.551 -05:00 [INF] Executed endpoint 'HTTP: GET /manual-json'
+2025-06-08 15:45:51.553 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/manual-json - 200 30 application/json 33.1613ms
+2025-06-08 15:58:00.108 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/manual-json - null null
+2025-06-08 15:58:00.115 -05:00 [INF] Executing endpoint 'HTTP: GET /manual-json'
+2025-06-08 15:58:00.118 -05:00 [INF] Write content with HTTP Response ContentType of application/json
+2025-06-08 15:58:00.119 -05:00 [INF] Executed endpoint 'HTTP: GET /manual-json'
+2025-06-08 15:58:00.135 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/manual-json - 200 30 application/json 26.382ms
+2025-06-08 15:58:05.605 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/custom-json - null null
+2025-06-08 15:58:05.608 -05:00 [INF] Executing endpoint 'HTTP: GET /custom-json'
+2025-06-08 15:58:05.613 -05:00 [INF] Write content with HTTP Response ContentType of application/json
+2025-06-08 15:58:05.616 -05:00 [INF] Executed endpoint 'HTTP: GET /custom-json'
+2025-06-08 15:58:05.618 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/custom-json - 200 31 application/json 12.6843ms
+2025-06-08 15:58:08.347 -05:00 [INF] Application is shutting down...
+2025-06-08 15:58:21.716 -05:00 [INF] Now listening on: http://localhost:5167
+2025-06-08 15:58:21.791 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-08 15:58:21.793 -05:00 [INF] Hosting environment: Development
+2025-06-08 15:58:21.799 -05:00 [INF] Content root path: C:\Users\jadha\Documents\myDotNet\webapi2
+2025-06-08 15:58:22.492 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/custom-json - null null
+2025-06-08 15:58:22.544 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/custom-json - 404 0 null 54.548ms
+2025-06-08 15:58:22.616 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5167/custom-json, Response status code: 404
+2025-06-08 15:58:25.601 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/manual-json - null null
+2025-06-08 15:58:25.609 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/manual-json - 404 0 null 7.8755ms
+2025-06-08 15:58:25.619 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5167/manual-json, Response status code: 404
+2025-06-08 15:58:51.461 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/manual-json - null null
+2025-06-08 15:58:51.487 -05:00 [INF] Executing endpoint 'SerializationController.Get (webapi2)'
+2025-06-08 15:58:51.553 -05:00 [INF] Route matched with {action = "Get", controller = "Serialization"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller SerializationController (webapi2).
+2025-06-08 15:58:51.591 -05:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2025-06-08 15:58:51.604 -05:00 [INF] Executed action SerializationController.Get (webapi2) in 42.4375ms
+2025-06-08 15:58:51.675 -05:00 [INF] Executed endpoint 'SerializationController.Get (webapi2)'
+2025-06-08 15:58:51.697 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/manual-json - 200 89 application/json 236.3926ms
+2025-06-08 15:59:00.464 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/custom-json - null null
+2025-06-08 15:59:00.469 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/custom-json - 404 0 null 5.2275ms
+2025-06-08 15:59:00.552 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5167/api/serialization/custom-json, Response status code: 404
+2025-06-08 15:59:08.366 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/json - null null
+2025-06-08 15:59:08.370 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/json - 404 0 null 3.7817ms
+2025-06-08 15:59:08.377 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5167/api/serialization/json, Response status code: 404
+2025-06-08 15:59:14.865 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/auto - null null
+2025-06-08 15:59:14.868 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/auto - 404 0 null 3.1245ms
+2025-06-08 15:59:14.872 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5167/api/serialization/auto, Response status code: 404
+2025-06-08 16:03:39.757 -05:00 [INF] Application is shutting down...
+2025-06-08 16:03:52.889 -05:00 [INF] Now listening on: http://localhost:5167
+2025-06-08 16:03:52.945 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-08 16:03:52.947 -05:00 [INF] Hosting environment: Development
+2025-06-08 16:03:52.948 -05:00 [INF] Content root path: C:\Users\jadha\Documents\myDotNet\webapi2
+2025-06-08 16:03:55.421 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/custom-json - null null
+2025-06-08 16:03:55.470 -05:00 [INF] Executing endpoint 'SerializationController.GetCustom (webapi2)'
+2025-06-08 16:03:55.500 -05:00 [INF] Route matched with {action = "GetCustom", controller = "Serialization"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCustom() on controller SerializationController (webapi2).
+2025-06-08 16:03:55.532 -05:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2025-06-08 16:03:55.543 -05:00 [INF] Executed action SerializationController.GetCustom (webapi2) in 34.7607ms
+2025-06-08 16:03:55.567 -05:00 [INF] Executed endpoint 'SerializationController.GetCustom (webapi2)'
+2025-06-08 16:03:55.583 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/custom-json - 200 90 application/json 164.6724ms
+2025-06-08 16:03:58.203 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/manual-json - null null
+2025-06-08 16:03:58.209 -05:00 [INF] Executing endpoint 'SerializationController.GetManual (webapi2)'
+2025-06-08 16:03:58.217 -05:00 [INF] Route matched with {action = "GetManual", controller = "Serialization"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetManual() on controller SerializationController (webapi2).
+2025-06-08 16:03:58.231 -05:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2025-06-08 16:03:58.233 -05:00 [INF] Executed action SerializationController.GetManual (webapi2) in 7.8316ms
+2025-06-08 16:03:58.235 -05:00 [INF] Executed endpoint 'SerializationController.GetManual (webapi2)'
+2025-06-08 16:03:58.237 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/manual-json - 200 89 application/json 34.1611ms
+2025-06-08 16:04:00.071 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/custom-json - null null
+2025-06-08 16:04:00.082 -05:00 [INF] Executing endpoint 'SerializationController.GetCustom (webapi2)'
+2025-06-08 16:04:00.084 -05:00 [INF] Route matched with {action = "GetCustom", controller = "Serialization"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCustom() on controller SerializationController (webapi2).
+2025-06-08 16:04:00.087 -05:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2025-06-08 16:04:00.090 -05:00 [INF] Executed action SerializationController.GetCustom (webapi2) in 3.9649ms
+2025-06-08 16:04:00.093 -05:00 [INF] Executed endpoint 'SerializationController.GetCustom (webapi2)'
+2025-06-08 16:04:00.095 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/custom-json - 200 90 application/json 24.588ms
+2025-06-08 16:04:01.479 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/manual-json - null null
+2025-06-08 16:04:01.489 -05:00 [INF] Executing endpoint 'SerializationController.GetManual (webapi2)'
+2025-06-08 16:04:01.493 -05:00 [INF] Route matched with {action = "GetManual", controller = "Serialization"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetManual() on controller SerializationController (webapi2).
+2025-06-08 16:04:01.495 -05:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2025-06-08 16:04:01.496 -05:00 [INF] Executed action SerializationController.GetManual (webapi2) in 1.5857ms
+2025-06-08 16:04:01.499 -05:00 [INF] Executed endpoint 'SerializationController.GetManual (webapi2)'
+2025-06-08 16:04:01.501 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/manual-json - 200 89 application/json 21.1433ms
+2025-06-08 16:07:25.283 -05:00 [INF] Application is shutting down...
+2025-06-08 16:07:32.538 -05:00 [INF] Now listening on: http://localhost:5167
+2025-06-08 16:07:32.611 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-08 16:07:32.619 -05:00 [INF] Hosting environment: Development
+2025-06-08 16:07:32.624 -05:00 [INF] Content root path: C:\Users\jadha\Documents\myDotNet\webapi2
+2025-06-08 16:07:35.954 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/auto - null null
+2025-06-08 16:07:36.007 -05:00 [INF] Executing endpoint 'SerializationController.GetAuto (webapi2)'
+2025-06-08 16:07:36.037 -05:00 [INF] Route matched with {action = "GetAuto", controller = "Serialization"}. Executing controller action with signature Person GetAuto() on controller SerializationController (webapi2).
+2025-06-08 16:07:36.048 -05:00 [INF] Executing ObjectResult, writing value of type 'Person'.
+2025-06-08 16:07:36.093 -05:00 [INF] Executed action SerializationController.GetAuto (webapi2) in 47.4847ms
+2025-06-08 16:07:36.121 -05:00 [INF] Executed endpoint 'SerializationController.GetAuto (webapi2)'
+2025-06-08 16:07:36.125 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/auto - 200 null application/json; charset=utf-8 174.294ms
+2025-06-08 16:07:39.261 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/json - null null
+2025-06-08 16:07:39.283 -05:00 [INF] Executing endpoint 'SerializationController.GetJson (webapi2)'
+2025-06-08 16:07:39.288 -05:00 [INF] Route matched with {action = "GetJson", controller = "Serialization"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetJson() on controller SerializationController (webapi2).
+2025-06-08 16:07:39.293 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 16:07:39.299 -05:00 [INF] Executed action SerializationController.GetJson (webapi2) in 8.5698ms
+2025-06-08 16:07:39.301 -05:00 [INF] Executed endpoint 'SerializationController.GetJson (webapi2)'
+2025-06-08 16:07:39.304 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 44.0811ms
+2025-06-08 16:07:46.914 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/auto - null null
+2025-06-08 16:07:46.937 -05:00 [INF] Executing endpoint 'SerializationController.GetAuto (webapi2)'
+2025-06-08 16:07:46.938 -05:00 [INF] Route matched with {action = "GetAuto", controller = "Serialization"}. Executing controller action with signature Person GetAuto() on controller SerializationController (webapi2).
+2025-06-08 16:07:46.941 -05:00 [INF] Executing ObjectResult, writing value of type 'Person'.
+2025-06-08 16:07:46.946 -05:00 [INF] Executed action SerializationController.GetAuto (webapi2) in 6.0893ms
+2025-06-08 16:07:46.952 -05:00 [INF] Executed endpoint 'SerializationController.GetAuto (webapi2)'
+2025-06-08 16:07:46.954 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/auto - 200 null application/json; charset=utf-8 39.3271ms
+2025-06-08 16:07:50.452 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/custom-json - null null
+2025-06-08 16:07:50.477 -05:00 [INF] Executing endpoint 'SerializationController.GetCustom (webapi2)'
+2025-06-08 16:07:50.482 -05:00 [INF] Route matched with {action = "GetCustom", controller = "Serialization"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCustom() on controller SerializationController (webapi2).
+2025-06-08 16:07:50.490 -05:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2025-06-08 16:07:50.494 -05:00 [INF] Executed action SerializationController.GetCustom (webapi2) in 6.8129ms
+2025-06-08 16:07:50.498 -05:00 [INF] Executed endpoint 'SerializationController.GetCustom (webapi2)'
+2025-06-08 16:07:50.500 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/custom-json - 200 90 application/json 47.7701ms
+2025-06-08 16:07:52.905 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/json - null null
+2025-06-08 16:07:52.917 -05:00 [INF] Executing endpoint 'SerializationController.GetJson (webapi2)'
+2025-06-08 16:07:52.919 -05:00 [INF] Route matched with {action = "GetJson", controller = "Serialization"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetJson() on controller SerializationController (webapi2).
+2025-06-08 16:07:52.923 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 16:07:52.924 -05:00 [INF] Executed action SerializationController.GetJson (webapi2) in 1.9774ms
+2025-06-08 16:07:52.925 -05:00 [INF] Executed endpoint 'SerializationController.GetJson (webapi2)'
+2025-06-08 16:07:52.927 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 22.0877ms
+2025-06-08 16:07:57.383 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/auto - null null
+2025-06-08 16:07:57.487 -05:00 [INF] Executing endpoint 'SerializationController.GetAuto (webapi2)'
+2025-06-08 16:07:57.493 -05:00 [INF] Route matched with {action = "GetAuto", controller = "Serialization"}. Executing controller action with signature Person GetAuto() on controller SerializationController (webapi2).
+2025-06-08 16:07:57.500 -05:00 [INF] Executing ObjectResult, writing value of type 'Person'.
+2025-06-08 16:07:57.503 -05:00 [INF] Executed action SerializationController.GetAuto (webapi2) in 3.707ms
+2025-06-08 16:07:57.516 -05:00 [INF] Executed endpoint 'SerializationController.GetAuto (webapi2)'
+2025-06-08 16:07:57.518 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/auto - 200 null application/json; charset=utf-8 135.5429ms
+2025-06-08 16:08:02.245 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/manual-json - null null
+2025-06-08 16:08:02.248 -05:00 [INF] Executing endpoint 'SerializationController.GetManual (webapi2)'
+2025-06-08 16:08:02.251 -05:00 [INF] Route matched with {action = "GetManual", controller = "Serialization"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetManual() on controller SerializationController (webapi2).
+2025-06-08 16:08:02.264 -05:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2025-06-08 16:08:02.266 -05:00 [INF] Executed action SerializationController.GetManual (webapi2) in 4.0658ms
+2025-06-08 16:08:02.268 -05:00 [INF] Executed endpoint 'SerializationController.GetManual (webapi2)'
+2025-06-08 16:08:02.270 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/manual-json - 200 89 application/json 24.6848ms
+2025-06-08 16:08:06.251 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/custom-json - null null
+2025-06-08 16:08:06.279 -05:00 [INF] Executing endpoint 'SerializationController.GetCustom (webapi2)'
+2025-06-08 16:08:06.292 -05:00 [INF] Route matched with {action = "GetCustom", controller = "Serialization"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCustom() on controller SerializationController (webapi2).
+2025-06-08 16:08:06.296 -05:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2025-06-08 16:08:06.299 -05:00 [INF] Executed action SerializationController.GetCustom (webapi2) in 3.791ms
+2025-06-08 16:08:06.304 -05:00 [INF] Executed endpoint 'SerializationController.GetCustom (webapi2)'
+2025-06-08 16:08:06.307 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/custom-json - 200 90 application/json 56.006ms
+2025-06-08 16:19:51.267 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/json - null null
+2025-06-08 16:19:51.274 -05:00 [INF] Executing endpoint 'SerializationController.GetJson (webapi2)'
+2025-06-08 16:19:51.278 -05:00 [INF] Route matched with {action = "GetJson", controller = "Serialization"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetJson() on controller SerializationController (webapi2).
+2025-06-08 16:19:51.283 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 16:19:51.285 -05:00 [INF] Executed action SerializationController.GetJson (webapi2) in 2.2119ms
+2025-06-08 16:19:51.290 -05:00 [INF] Executed endpoint 'SerializationController.GetJson (webapi2)'
+2025-06-08 16:19:51.292 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 24.9943ms
+2025-06-08 16:19:54.145 -05:00 [INF] Application is shutting down...
+2025-06-08 16:20:12.974 -05:00 [INF] Now listening on: http://localhost:5167
+2025-06-08 16:20:13.030 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-08 16:20:13.030 -05:00 [INF] Hosting environment: Development
+2025-06-08 16:20:13.030 -05:00 [INF] Content root path: C:\Users\jadha\Documents\myDotNet\webapi2
+2025-06-08 16:20:14.257 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/json - null null
+2025-06-08 16:20:14.301 -05:00 [INF] Executing endpoint 'SerializationController.GetJson (webapi2)'
+2025-06-08 16:20:14.334 -05:00 [INF] Route matched with {action = "GetJson", controller = "Serialization"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetJson() on controller SerializationController (webapi2).
+2025-06-08 16:20:14.337 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 16:20:14.360 -05:00 [INF] Executed action SerializationController.GetJson (webapi2) in 22.5191ms
+2025-06-08 16:20:14.377 -05:00 [INF] Executed endpoint 'SerializationController.GetJson (webapi2)'
+2025-06-08 16:20:14.380 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 123.8943ms
+2025-06-08 16:20:16.488 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/json - null null
+2025-06-08 16:20:16.495 -05:00 [INF] Executing endpoint 'SerializationController.GetJson (webapi2)'
+2025-06-08 16:20:16.496 -05:00 [INF] Route matched with {action = "GetJson", controller = "Serialization"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetJson() on controller SerializationController (webapi2).
+2025-06-08 16:20:16.497 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 16:20:16.498 -05:00 [INF] Executed action SerializationController.GetJson (webapi2) in 1.8546ms
+2025-06-08 16:20:16.499 -05:00 [INF] Executed endpoint 'SerializationController.GetJson (webapi2)'
+2025-06-08 16:20:16.500 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 12.2189ms
+2025-06-08 16:20:18.064 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/auto - null null
+2025-06-08 16:20:18.066 -05:00 [INF] Executing endpoint 'SerializationController.GetAuto (webapi2)'
+2025-06-08 16:20:18.071 -05:00 [INF] Route matched with {action = "GetAuto", controller = "Serialization"}. Executing controller action with signature Person GetAuto() on controller SerializationController (webapi2).
+2025-06-08 16:20:18.085 -05:00 [INF] Executing ObjectResult, writing value of type 'Person'.
+2025-06-08 16:20:18.104 -05:00 [INF] Executed action SerializationController.GetAuto (webapi2) in 32.2461ms
+2025-06-08 16:20:18.104 -05:00 [INF] Executed endpoint 'SerializationController.GetAuto (webapi2)'
+2025-06-08 16:20:18.105 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/auto - 200 null application/json; charset=utf-8 41.0279ms
+2025-06-08 16:20:27.293 -05:00 [INF] Now listening on: http://localhost:5167
+2025-06-08 16:20:27.341 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-08 16:20:27.342 -05:00 [INF] Hosting environment: Development
+2025-06-08 16:20:27.342 -05:00 [INF] Content root path: C:\Users\jadha\Documents\myDotNet\webapi2
+2025-06-08 16:20:38.620 -05:00 [INF] Now listening on: http://localhost:5167
+2025-06-08 16:20:38.660 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-08 16:20:38.660 -05:00 [INF] Hosting environment: Development
+2025-06-08 16:20:38.660 -05:00 [INF] Content root path: C:\Users\jadha\Documents\myDotNet\webapi2
+2025-06-08 16:20:40.796 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/json - null null
+2025-06-08 16:20:40.816 -05:00 [INF] Executing endpoint 'SerializationController.GetJson (webapi2)'
+2025-06-08 16:20:40.832 -05:00 [INF] Route matched with {action = "GetJson", controller = "Serialization"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetJson() on controller SerializationController (webapi2).
+2025-06-08 16:20:40.834 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 16:20:40.856 -05:00 [INF] Executed action SerializationController.GetJson (webapi2) in 19.7763ms
+2025-06-08 16:20:40.864 -05:00 [INF] Executed endpoint 'SerializationController.GetJson (webapi2)'
+2025-06-08 16:20:40.865 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 69.8992ms
+2025-06-08 16:21:39.683 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/json - null null
+2025-06-08 16:21:39.693 -05:00 [INF] Executing endpoint 'SerializationController.GetJson (webapi2)'
+2025-06-08 16:21:39.693 -05:00 [INF] Route matched with {action = "GetJson", controller = "Serialization"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetJson() on controller SerializationController (webapi2).
+2025-06-08 16:21:39.695 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 16:21:39.698 -05:00 [INF] Executed action SerializationController.GetJson (webapi2) in 4.5233ms
+2025-06-08 16:21:39.699 -05:00 [INF] Executed endpoint 'SerializationController.GetJson (webapi2)'
+2025-06-08 16:21:39.700 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 18.8601ms
+2025-06-08 16:23:06.113 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/json - null null
+2025-06-08 16:23:06.118 -05:00 [INF] Executing endpoint 'SerializationController.GetJson (webapi2)'
+2025-06-08 16:23:06.122 -05:00 [INF] Route matched with {action = "GetJson", controller = "Serialization"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetJson() on controller SerializationController (webapi2).
+2025-06-08 16:23:06.122 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 16:23:06.126 -05:00 [INF] Executed action SerializationController.GetJson (webapi2) in 3.8121ms
+2025-06-08 16:23:06.126 -05:00 [INF] Executed endpoint 'SerializationController.GetJson (webapi2)'
+2025-06-08 16:23:06.127 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 13.2583ms
+2025-06-08 16:23:14.823 -05:00 [INF] Now listening on: http://localhost:5167
+2025-06-08 16:23:14.863 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-08 16:23:14.863 -05:00 [INF] Hosting environment: Development
+2025-06-08 16:23:14.863 -05:00 [INF] Content root path: C:\Users\jadha\Documents\myDotNet\webapi2
+2025-06-08 16:23:16.802 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/json - null null
+2025-06-08 16:23:16.822 -05:00 [INF] Executing endpoint 'SerializationController.GetJson (webapi2)'
+2025-06-08 16:23:16.837 -05:00 [INF] Route matched with {action = "GetJson", controller = "Serialization"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetJson() on controller SerializationController (webapi2).
+2025-06-08 16:23:16.839 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 16:23:16.857 -05:00 [INF] Executed action SerializationController.GetJson (webapi2) in 17.3195ms
+2025-06-08 16:23:16.865 -05:00 [INF] Executed endpoint 'SerializationController.GetJson (webapi2)'
+2025-06-08 16:23:16.866 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 65.9679ms
+2025-06-08 16:23:19.033 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/auto - null null
+2025-06-08 16:23:19.041 -05:00 [INF] Executing endpoint 'SerializationController.GetAuto (webapi2)'
+2025-06-08 16:23:19.050 -05:00 [INF] Route matched with {action = "GetAuto", controller = "Serialization"}. Executing controller action with signature Person GetAuto() on controller SerializationController (webapi2).
+2025-06-08 16:23:19.061 -05:00 [INF] Executing ObjectResult, writing value of type 'Person'.
+2025-06-08 16:23:19.075 -05:00 [INF] Executed action SerializationController.GetAuto (webapi2) in 24.8021ms
+2025-06-08 16:23:19.075 -05:00 [INF] Executed endpoint 'SerializationController.GetAuto (webapi2)'
+2025-06-08 16:23:19.076 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/auto - 200 null application/json; charset=utf-8 43.6646ms
+2025-06-08 16:23:21.357 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/custom-json - null null
+2025-06-08 16:23:21.362 -05:00 [INF] Executing endpoint 'SerializationController.GetCustom (webapi2)'
+2025-06-08 16:23:21.365 -05:00 [INF] Route matched with {action = "GetCustom", controller = "Serialization"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCustom() on controller SerializationController (webapi2).
+2025-06-08 16:23:21.373 -05:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2025-06-08 16:23:21.378 -05:00 [INF] Executed action SerializationController.GetCustom (webapi2) in 12.2886ms
+2025-06-08 16:23:21.378 -05:00 [INF] Executed endpoint 'SerializationController.GetCustom (webapi2)'
+2025-06-08 16:23:21.379 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/custom-json - 200 90 application/json 21.9854ms
+2025-06-08 16:23:23.377 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/manual-json - null null
+2025-06-08 16:23:23.379 -05:00 [INF] Executing endpoint 'SerializationController.GetManual (webapi2)'
+2025-06-08 16:23:23.381 -05:00 [INF] Route matched with {action = "GetManual", controller = "Serialization"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetManual() on controller SerializationController (webapi2).
+2025-06-08 16:23:23.385 -05:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2025-06-08 16:23:23.386 -05:00 [INF] Executed action SerializationController.GetManual (webapi2) in 4.5894ms
+2025-06-08 16:23:23.387 -05:00 [INF] Executed endpoint 'SerializationController.GetManual (webapi2)'
+2025-06-08 16:23:23.388 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/manual-json - 200 89 application/json 11.3188ms
+2025-06-08 16:23:25.435 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/api/serialization/json - null null
+2025-06-08 16:23:25.436 -05:00 [INF] Executing endpoint 'SerializationController.GetJson (webapi2)'
+2025-06-08 16:23:25.436 -05:00 [INF] Route matched with {action = "GetJson", controller = "Serialization"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetJson() on controller SerializationController (webapi2).
+2025-06-08 16:23:25.437 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 16:23:25.438 -05:00 [INF] Executed action SerializationController.GetJson (webapi2) in 0.7013ms
+2025-06-08 16:23:25.438 -05:00 [INF] Executed endpoint 'SerializationController.GetJson (webapi2)'
+2025-06-08 16:23:25.438 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 2.9368ms
+2025-06-08 17:57:03.619 -05:00 [INF] Now listening on: http://localhost:5167
+2025-06-08 17:57:03.659 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-08 17:57:03.659 -05:00 [INF] Hosting environment: Development
+2025-06-08 17:57:03.659 -05:00 [INF] Content root path: C:\Users\jadha\Documents\myDotNet\webapi2
+2025-06-08 17:57:35.549 -05:00 [INF] Now listening on: http://localhost:5167
+2025-06-08 17:57:35.594 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-08 17:57:35.594 -05:00 [INF] Hosting environment: Development
+2025-06-08 17:57:35.594 -05:00 [INF] Content root path: C:\Users\jadha\Documents\myDotNet\webapi2
+2025-06-08 17:58:33.338 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/auto - application/json 92
+2025-06-08 17:58:33.363 -05:00 [INF] Executing endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 17:58:33.383 -05:00 [INF] Route matched with {action = "createPersonAuto", controller = "Serialization"}. Executing controller action with signature Person createPersonAuto(Person) on controller SerializationController (webapi2).
+2025-06-08 17:58:33.429 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-06-08 17:58:33.459 -05:00 [INF] Executed action SerializationController.createPersonAuto (webapi2) in 72.6502ms
+2025-06-08 17:58:33.467 -05:00 [INF] Executed endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 17:58:33.468 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/auto - 400 null application/problem+json; charset=utf-8 131.7219ms
+2025-06-08 17:58:50.411 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/auto - application/json 93
+2025-06-08 17:58:50.418 -05:00 [INF] Executing endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 17:58:50.419 -05:00 [INF] Route matched with {action = "createPersonAuto", controller = "Serialization"}. Executing controller action with signature Person createPersonAuto(Person) on controller SerializationController (webapi2).
+2025-06-08 17:58:50.431 -05:00 [INF] Executing ObjectResult, writing value of type 'Person'.
+2025-06-08 17:58:50.439 -05:00 [INF] Executed action SerializationController.createPersonAuto (webapi2) in 19.073ms
+2025-06-08 17:58:50.440 -05:00 [INF] Executed endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 17:58:50.441 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/auto - 200 null application/json; charset=utf-8 32.1622ms
+2025-06-08 17:59:05.810 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/auto - application/json 92
+2025-06-08 17:59:05.813 -05:00 [INF] Executing endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 17:59:05.813 -05:00 [INF] Route matched with {action = "createPersonAuto", controller = "Serialization"}. Executing controller action with signature Person createPersonAuto(Person) on controller SerializationController (webapi2).
+2025-06-08 17:59:05.815 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-06-08 17:59:05.816 -05:00 [INF] Executed action SerializationController.createPersonAuto (webapi2) in 2.6459ms
+2025-06-08 17:59:05.816 -05:00 [INF] Executed endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 17:59:05.817 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/auto - 400 null application/problem+json; charset=utf-8 6.8962ms
+2025-06-08 17:59:38.605 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/auto - application/json 92
+2025-06-08 17:59:38.605 -05:00 [INF] Executing endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 17:59:38.606 -05:00 [INF] Route matched with {action = "createPersonAuto", controller = "Serialization"}. Executing controller action with signature Person createPersonAuto(Person) on controller SerializationController (webapi2).
+2025-06-08 17:59:38.606 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-06-08 17:59:38.607 -05:00 [INF] Executed action SerializationController.createPersonAuto (webapi2) in 1.0008ms
+2025-06-08 17:59:38.607 -05:00 [INF] Executed endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 17:59:38.607 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/auto - 400 null application/problem+json; charset=utf-8 1.9608ms
+2025-06-08 18:00:00.607 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/auto - application/json 92
+2025-06-08 18:00:00.608 -05:00 [INF] Executing endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:00:00.609 -05:00 [INF] Route matched with {action = "createPersonAuto", controller = "Serialization"}. Executing controller action with signature Person createPersonAuto(Person) on controller SerializationController (webapi2).
+2025-06-08 18:00:00.610 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-06-08 18:00:00.610 -05:00 [INF] Executed action SerializationController.createPersonAuto (webapi2) in 1.055ms
+2025-06-08 18:00:00.610 -05:00 [INF] Executed endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:00:00.610 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/auto - 400 null application/problem+json; charset=utf-8 2.5647ms
+2025-06-08 18:00:01.775 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/auto - application/json 92
+2025-06-08 18:00:01.775 -05:00 [INF] Executing endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:00:01.775 -05:00 [INF] Route matched with {action = "createPersonAuto", controller = "Serialization"}. Executing controller action with signature Person createPersonAuto(Person) on controller SerializationController (webapi2).
+2025-06-08 18:00:01.777 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-06-08 18:00:01.777 -05:00 [INF] Executed action SerializationController.createPersonAuto (webapi2) in 1.4461ms
+2025-06-08 18:00:01.777 -05:00 [INF] Executed endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:00:01.778 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/auto - 400 null application/problem+json; charset=utf-8 2.7853ms
+2025-06-08 18:00:02.078 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/auto - application/json 92
+2025-06-08 18:00:02.079 -05:00 [INF] Executing endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:00:02.079 -05:00 [INF] Route matched with {action = "createPersonAuto", controller = "Serialization"}. Executing controller action with signature Person createPersonAuto(Person) on controller SerializationController (webapi2).
+2025-06-08 18:00:02.080 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-06-08 18:00:02.080 -05:00 [INF] Executed action SerializationController.createPersonAuto (webapi2) in 1.1188ms
+2025-06-08 18:00:02.080 -05:00 [INF] Executed endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:00:02.080 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/auto - 400 null application/problem+json; charset=utf-8 2.008ms
+2025-06-08 18:00:02.287 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/auto - application/json 92
+2025-06-08 18:00:02.287 -05:00 [INF] Executing endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:00:02.288 -05:00 [INF] Route matched with {action = "createPersonAuto", controller = "Serialization"}. Executing controller action with signature Person createPersonAuto(Person) on controller SerializationController (webapi2).
+2025-06-08 18:00:02.289 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-06-08 18:00:02.290 -05:00 [INF] Executed action SerializationController.createPersonAuto (webapi2) in 1.9139ms
+2025-06-08 18:00:02.290 -05:00 [INF] Executed endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:00:02.290 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/auto - 400 null application/problem+json; charset=utf-8 3.7668ms
+2025-06-08 18:00:02.477 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/auto - application/json 92
+2025-06-08 18:00:02.477 -05:00 [INF] Executing endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:00:02.477 -05:00 [INF] Route matched with {action = "createPersonAuto", controller = "Serialization"}. Executing controller action with signature Person createPersonAuto(Person) on controller SerializationController (webapi2).
+2025-06-08 18:00:02.477 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-06-08 18:00:02.478 -05:00 [INF] Executed action SerializationController.createPersonAuto (webapi2) in 1.1254ms
+2025-06-08 18:00:02.478 -05:00 [INF] Executed endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:00:02.479 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/auto - 400 null application/problem+json; charset=utf-8 2.0528ms
+2025-06-08 18:00:16.700 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/auto - application/json 93
+2025-06-08 18:00:16.701 -05:00 [INF] Executing endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:00:16.701 -05:00 [INF] Route matched with {action = "createPersonAuto", controller = "Serialization"}. Executing controller action with signature Person createPersonAuto(Person) on controller SerializationController (webapi2).
+2025-06-08 18:00:16.702 -05:00 [INF] Executing ObjectResult, writing value of type 'Person'.
+2025-06-08 18:00:16.702 -05:00 [INF] Executed action SerializationController.createPersonAuto (webapi2) in 0.9041ms
+2025-06-08 18:00:16.702 -05:00 [INF] Executed endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:00:16.703 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/auto - 200 null application/json; charset=utf-8 2.2194ms
+2025-06-08 18:01:05.267 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/auto - application/json 93
+2025-06-08 18:01:05.268 -05:00 [INF] Executing endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:01:05.270 -05:00 [INF] Route matched with {action = "createPersonAuto", controller = "Serialization"}. Executing controller action with signature Person createPersonAuto(Person) on controller SerializationController (webapi2).
+2025-06-08 18:01:05.273 -05:00 [INF] Executing ObjectResult, writing value of type 'Person'.
+2025-06-08 18:01:05.274 -05:00 [INF] Executed action SerializationController.createPersonAuto (webapi2) in 3.5347ms
+2025-06-08 18:01:05.274 -05:00 [INF] Executed endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:01:05.274 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/auto - 200 null application/json; charset=utf-8 7.5998ms
+2025-06-08 18:01:10.629 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/auto - application/json 92
+2025-06-08 18:01:10.633 -05:00 [INF] Executing endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:01:10.634 -05:00 [INF] Route matched with {action = "createPersonAuto", controller = "Serialization"}. Executing controller action with signature Person createPersonAuto(Person) on controller SerializationController (webapi2).
+2025-06-08 18:01:10.635 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-06-08 18:01:10.641 -05:00 [INF] Executed action SerializationController.createPersonAuto (webapi2) in 7.6445ms
+2025-06-08 18:01:10.641 -05:00 [INF] Executed endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:01:10.642 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/auto - 400 null application/problem+json; charset=utf-8 12.3456ms
+2025-06-08 18:01:20.212 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/auto - application/json 92
+2025-06-08 18:01:20.212 -05:00 [INF] Executing endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:01:20.212 -05:00 [INF] Route matched with {action = "createPersonAuto", controller = "Serialization"}. Executing controller action with signature Person createPersonAuto(Person) on controller SerializationController (webapi2).
+2025-06-08 18:01:20.213 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-06-08 18:01:20.213 -05:00 [INF] Executed action SerializationController.createPersonAuto (webapi2) in 0.6103ms
+2025-06-08 18:01:20.213 -05:00 [INF] Executed endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:01:20.213 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/auto - 400 null application/problem+json; charset=utf-8 1.0725ms
+2025-06-08 18:01:31.890 -05:00 [INF] Now listening on: http://localhost:5167
+2025-06-08 18:01:31.930 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-08 18:01:31.930 -05:00 [INF] Hosting environment: Development
+2025-06-08 18:01:31.930 -05:00 [INF] Content root path: C:\Users\jadha\Documents\myDotNet\webapi2
+2025-06-08 18:01:31.971 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/auto - application/json 92
+2025-06-08 18:01:31.993 -05:00 [INF] Executing endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:01:32.010 -05:00 [INF] Route matched with {action = "createPersonAuto", controller = "Serialization"}. Executing controller action with signature Person createPersonAuto(Person) on controller SerializationController (webapi2).
+2025-06-08 18:01:32.045 -05:00 [INF] Executing ObjectResult, writing value of type 'Person'.
+2025-06-08 18:01:32.052 -05:00 [INF] Executed action SerializationController.createPersonAuto (webapi2) in 39.0375ms
+2025-06-08 18:01:32.060 -05:00 [INF] Executed endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:01:32.061 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/auto - 200 null application/json; charset=utf-8 92.4105ms
+2025-06-08 18:01:41.174 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/auto - application/json 92
+2025-06-08 18:01:41.178 -05:00 [INF] Executing endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:01:41.178 -05:00 [INF] Route matched with {action = "createPersonAuto", controller = "Serialization"}. Executing controller action with signature Person createPersonAuto(Person) on controller SerializationController (webapi2).
+2025-06-08 18:01:41.179 -05:00 [INF] Executing ObjectResult, writing value of type 'Person'.
+2025-06-08 18:01:41.180 -05:00 [INF] Executed action SerializationController.createPersonAuto (webapi2) in 2.1124ms
+2025-06-08 18:01:41.181 -05:00 [INF] Executed endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:01:41.181 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/auto - 200 null application/json; charset=utf-8 8.4006ms
+2025-06-08 18:01:42.404 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/auto - application/json 92
+2025-06-08 18:01:42.407 -05:00 [INF] Executing endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:01:42.408 -05:00 [INF] Route matched with {action = "createPersonAuto", controller = "Serialization"}. Executing controller action with signature Person createPersonAuto(Person) on controller SerializationController (webapi2).
+2025-06-08 18:01:42.408 -05:00 [INF] Executing ObjectResult, writing value of type 'Person'.
+2025-06-08 18:01:42.409 -05:00 [INF] Executed action SerializationController.createPersonAuto (webapi2) in 0.7405ms
+2025-06-08 18:01:42.409 -05:00 [INF] Executed endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:01:42.410 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/auto - 200 null application/json; charset=utf-8 5.2082ms
+2025-06-08 18:02:21.971 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/json - application/json 92
+2025-06-08 18:02:21.972 -05:00 [INF] Executing endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:02:21.981 -05:00 [INF] Route matched with {action = "CreatePerson", controller = "Serialization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePerson() on controller SerializationController (webapi2).
+2025-06-08 18:02:21.990 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 18:02:21.991 -05:00 [INF] Executed action SerializationController.CreatePerson (webapi2) in 9.4633ms
+2025-06-08 18:02:21.991 -05:00 [INF] Executed endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:02:21.991 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 19.9802ms
+2025-06-08 18:02:31.316 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/json - application/json 64
+2025-06-08 18:02:31.317 -05:00 [INF] Executing endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:02:31.317 -05:00 [INF] Route matched with {action = "CreatePerson", controller = "Serialization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePerson() on controller SerializationController (webapi2).
+2025-06-08 18:02:31.323 -05:00 [INF] Executed action SerializationController.CreatePerson (webapi2) in 6.2644ms
+2025-06-08 18:02:31.325 -05:00 [INF] Executed endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:02:31.359 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/json - 500 null null 42.4617ms
+2025-06-08 18:02:37.578 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/json - application/json 63
+2025-06-08 18:02:37.579 -05:00 [INF] Executing endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:02:37.579 -05:00 [INF] Route matched with {action = "CreatePerson", controller = "Serialization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePerson() on controller SerializationController (webapi2).
+2025-06-08 18:02:37.579 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 18:02:37.581 -05:00 [INF] Executed action SerializationController.CreatePerson (webapi2) in 2.0767ms
+2025-06-08 18:02:37.581 -05:00 [INF] Executed endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:02:37.581 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 3.3479ms
+2025-06-08 18:02:47.624 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/json - application/json 0
+2025-06-08 18:02:47.625 -05:00 [INF] Executing endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:02:47.625 -05:00 [INF] Route matched with {action = "CreatePerson", controller = "Serialization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePerson() on controller SerializationController (webapi2).
+2025-06-08 18:02:47.626 -05:00 [INF] Executed action SerializationController.CreatePerson (webapi2) in 1.3747ms
+2025-06-08 18:02:47.627 -05:00 [INF] Executed endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:02:47.629 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/json - 500 null null 5.1474ms
+2025-06-08 18:02:49.646 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/json - application/json 0
+2025-06-08 18:02:49.646 -05:00 [INF] Executing endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:02:49.647 -05:00 [INF] Route matched with {action = "CreatePerson", controller = "Serialization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePerson() on controller SerializationController (webapi2).
+2025-06-08 18:02:49.648 -05:00 [INF] Executed action SerializationController.CreatePerson (webapi2) in 1.2016ms
+2025-06-08 18:02:49.649 -05:00 [INF] Executed endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:02:49.650 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/json - 500 null null 4.4093ms
+2025-06-08 18:02:52.196 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/json - null 0
+2025-06-08 18:02:52.196 -05:00 [INF] Executing endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:02:52.196 -05:00 [INF] Route matched with {action = "CreatePerson", controller = "Serialization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePerson() on controller SerializationController (webapi2).
+2025-06-08 18:02:52.199 -05:00 [INF] Executed action SerializationController.CreatePerson (webapi2) in 2.3516ms
+2025-06-08 18:02:52.199 -05:00 [INF] Executed endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:02:52.200 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/json - 500 null null 4.0916ms
+2025-06-08 18:02:52.936 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/json - null 0
+2025-06-08 18:02:52.937 -05:00 [INF] Executing endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:02:52.938 -05:00 [INF] Route matched with {action = "CreatePerson", controller = "Serialization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePerson() on controller SerializationController (webapi2).
+2025-06-08 18:02:52.940 -05:00 [INF] Executed action SerializationController.CreatePerson (webapi2) in 1.1912ms
+2025-06-08 18:02:52.940 -05:00 [INF] Executed endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:02:52.943 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/json - 500 null null 6.7896ms
+2025-06-08 18:02:53.141 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/json - null 0
+2025-06-08 18:02:53.142 -05:00 [INF] Executing endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:02:53.142 -05:00 [INF] Route matched with {action = "CreatePerson", controller = "Serialization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePerson() on controller SerializationController (webapi2).
+2025-06-08 18:02:53.143 -05:00 [INF] Executed action SerializationController.CreatePerson (webapi2) in 0.5839ms
+2025-06-08 18:02:53.143 -05:00 [INF] Executed endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:02:53.145 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/json - 500 null null 3.7776ms
+2025-06-08 18:02:56.607 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/json - null 0
+2025-06-08 18:02:56.608 -05:00 [INF] Executing endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:02:56.608 -05:00 [INF] Route matched with {action = "CreatePerson", controller = "Serialization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePerson() on controller SerializationController (webapi2).
+2025-06-08 18:02:56.609 -05:00 [INF] Executed action SerializationController.CreatePerson (webapi2) in 0.4784ms
+2025-06-08 18:02:56.609 -05:00 [INF] Executed endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:02:56.609 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/json - 500 null null 2.053ms
+2025-06-08 18:03:25.882 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/json - application/json 63
+2025-06-08 18:03:25.883 -05:00 [INF] Executing endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:03:25.883 -05:00 [INF] Route matched with {action = "CreatePerson", controller = "Serialization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePerson() on controller SerializationController (webapi2).
+2025-06-08 18:03:25.884 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 18:03:25.884 -05:00 [INF] Executed action SerializationController.CreatePerson (webapi2) in 0.5076ms
+2025-06-08 18:03:25.884 -05:00 [INF] Executed endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:03:25.884 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 1.5397ms
+2025-06-08 18:03:35.044 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/json - application/json 95
+2025-06-08 18:03:35.045 -05:00 [INF] Executing endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:03:35.045 -05:00 [INF] Route matched with {action = "CreatePerson", controller = "Serialization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePerson() on controller SerializationController (webapi2).
+2025-06-08 18:03:35.047 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 18:03:35.047 -05:00 [INF] Executed action SerializationController.CreatePerson (webapi2) in 2.0165ms
+2025-06-08 18:03:35.048 -05:00 [INF] Executed endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:03:35.048 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 3.6699ms
+2025-06-08 18:03:53.867 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/json - application/json 95
+2025-06-08 18:03:53.867 -05:00 [INF] Executing endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:03:53.867 -05:00 [INF] Route matched with {action = "CreatePerson", controller = "Serialization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePerson() on controller SerializationController (webapi2).
+2025-06-08 18:03:53.867 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 18:03:53.868 -05:00 [INF] Executed action SerializationController.CreatePerson (webapi2) in 0.2747ms
+2025-06-08 18:03:53.868 -05:00 [INF] Executed endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:03:53.868 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 0.8231ms
+2025-06-08 18:06:24.544 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/json - application/json 126
+2025-06-08 18:06:24.545 -05:00 [INF] Executing endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:06:24.545 -05:00 [INF] Route matched with {action = "CreatePerson", controller = "Serialization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePerson() on controller SerializationController (webapi2).
+2025-06-08 18:06:24.545 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 18:06:24.546 -05:00 [INF] Executed action SerializationController.CreatePerson (webapi2) in 0.6907ms
+2025-06-08 18:06:24.546 -05:00 [INF] Executed endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:06:24.546 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 1.6168ms
+2025-06-08 18:06:25.803 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/json - application/json 126
+2025-06-08 18:06:25.803 -05:00 [INF] Executing endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:06:25.803 -05:00 [INF] Route matched with {action = "CreatePerson", controller = "Serialization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePerson() on controller SerializationController (webapi2).
+2025-06-08 18:06:25.803 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 18:06:25.804 -05:00 [INF] Executed action SerializationController.CreatePerson (webapi2) in 0.5478ms
+2025-06-08 18:06:25.804 -05:00 [INF] Executed endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:06:25.804 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 1.6058ms
+2025-06-08 18:06:27.590 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/json - application/json 126
+2025-06-08 18:06:27.591 -05:00 [INF] Executing endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:06:27.591 -05:00 [INF] Route matched with {action = "CreatePerson", controller = "Serialization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePerson() on controller SerializationController (webapi2).
+2025-06-08 18:06:27.591 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 18:06:27.592 -05:00 [INF] Executed action SerializationController.CreatePerson (webapi2) in 0.6015ms
+2025-06-08 18:06:27.592 -05:00 [INF] Executed endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:06:27.592 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 1.6298ms
+2025-06-08 18:06:29.625 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/json - application/json 126
+2025-06-08 18:06:29.625 -05:00 [INF] Executing endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:06:29.626 -05:00 [INF] Route matched with {action = "CreatePerson", controller = "Serialization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePerson() on controller SerializationController (webapi2).
+2025-06-08 18:06:29.626 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 18:06:29.626 -05:00 [INF] Executed action SerializationController.CreatePerson (webapi2) in 0.24ms
+2025-06-08 18:06:29.626 -05:00 [INF] Executed endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:06:29.626 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 0.6232ms
+2025-06-08 18:06:33.486 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/json - application/json 126
+2025-06-08 18:06:33.486 -05:00 [INF] Executing endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:06:33.487 -05:00 [INF] Route matched with {action = "CreatePerson", controller = "Serialization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePerson() on controller SerializationController (webapi2).
+2025-06-08 18:06:33.487 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 18:06:33.487 -05:00 [INF] Executed action SerializationController.CreatePerson (webapi2) in 0.4786ms
+2025-06-08 18:06:33.487 -05:00 [INF] Executed endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:06:33.487 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 1.1753ms
+2025-06-08 18:06:53.115 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/auto - application/json 123
+2025-06-08 18:06:53.115 -05:00 [INF] Executing endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:06:53.115 -05:00 [INF] Route matched with {action = "createPersonAuto", controller = "Serialization"}. Executing controller action with signature Person createPersonAuto(Person) on controller SerializationController (webapi2).
+2025-06-08 18:06:53.116 -05:00 [INF] Executing ObjectResult, writing value of type 'Person'.
+2025-06-08 18:06:53.116 -05:00 [INF] Executed action SerializationController.createPersonAuto (webapi2) in 0.8979ms
+2025-06-08 18:06:53.116 -05:00 [INF] Executed endpoint 'SerializationController.createPersonAuto (webapi2)'
+2025-06-08 18:06:53.116 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/auto - 200 null application/json; charset=utf-8 1.556ms
+2025-06-08 18:06:55.631 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/json - application/json 126
+2025-06-08 18:06:55.632 -05:00 [INF] Executing endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:06:55.632 -05:00 [INF] Route matched with {action = "CreatePerson", controller = "Serialization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePerson() on controller SerializationController (webapi2).
+2025-06-08 18:06:55.633 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 18:06:55.633 -05:00 [INF] Executed action SerializationController.CreatePerson (webapi2) in 1.0685ms
+2025-06-08 18:06:55.633 -05:00 [INF] Executed endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:06:55.633 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 2.3375ms
+2025-06-08 18:07:02.361 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/json - application/json 126
+2025-06-08 18:07:02.362 -05:00 [INF] Executing endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:07:02.362 -05:00 [INF] Route matched with {action = "CreatePerson", controller = "Serialization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePerson() on controller SerializationController (webapi2).
+2025-06-08 18:07:02.362 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 18:07:02.363 -05:00 [INF] Executed action SerializationController.CreatePerson (webapi2) in 0.4539ms
+2025-06-08 18:07:02.363 -05:00 [INF] Executed endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:07:02.363 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 1.2869ms
+2025-06-08 18:07:07.816 -05:00 [INF] Application is shutting down...
+2025-06-08 18:07:17.897 -05:00 [INF] Now listening on: http://localhost:5167
+2025-06-08 18:07:17.936 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-08 18:07:17.936 -05:00 [INF] Hosting environment: Development
+2025-06-08 18:07:17.936 -05:00 [INF] Content root path: C:\Users\jadha\Documents\myDotNet\webapi2
+2025-06-08 18:07:18.366 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/json - application/json 126
+2025-06-08 18:07:18.392 -05:00 [INF] Executing endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:07:18.414 -05:00 [INF] Route matched with {action = "CreatePerson", controller = "Serialization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePerson() on controller SerializationController (webapi2).
+2025-06-08 18:07:18.437 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 18:07:18.447 -05:00 [INF] Executed action SerializationController.CreatePerson (webapi2) in 29.6699ms
+2025-06-08 18:07:18.455 -05:00 [INF] Executed endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:07:18.457 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 92.8417ms
+2025-06-08 18:11:13.160 -05:00 [INF] Now listening on: http://localhost:5167
+2025-06-08 18:11:13.205 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-08 18:11:13.205 -05:00 [INF] Hosting environment: Development
+2025-06-08 18:11:13.205 -05:00 [INF] Content root path: C:\Users\jadha\Documents\myDotNet\webapi2
+2025-06-08 18:11:33.760 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/custom-json - application/json 124
+2025-06-08 18:11:33.790 -05:00 [INF] Executing endpoint 'SerializationController.CustomJson (webapi2)'
+2025-06-08 18:11:33.810 -05:00 [INF] Route matched with {action = "CustomJson", controller = "Serialization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CustomJson() on controller SerializationController (webapi2).
+2025-06-08 18:11:33.843 -05:00 [INF] Executed action SerializationController.CustomJson (webapi2) in 29.4428ms
+2025-06-08 18:11:33.854 -05:00 [INF] Executed endpoint 'SerializationController.CustomJson (webapi2)'
+2025-06-08 18:11:33.907 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/custom-json - 500 null null 147.533ms
+2025-06-08 18:11:35.973 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/json - application/json 124
+2025-06-08 18:11:35.975 -05:00 [INF] Executing endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:11:35.983 -05:00 [INF] Route matched with {action = "CreatePerson", controller = "Serialization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePerson() on controller SerializationController (webapi2).
+2025-06-08 18:11:35.999 -05:00 [INF] Executing JsonResult, writing value of type 'Person'.
+2025-06-08 18:11:36.002 -05:00 [INF] Executed action SerializationController.CreatePerson (webapi2) in 18.4376ms
+2025-06-08 18:11:36.002 -05:00 [INF] Executed endpoint 'SerializationController.CreatePerson (webapi2)'
+2025-06-08 18:11:36.003 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/json - 200 null application/json; charset=utf-8 30.7666ms
+2025-06-08 18:11:37.799 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/api/serialization/custom-json - application/json 124
+2025-06-08 18:11:37.802 -05:00 [INF] Executing endpoint 'SerializationController.CustomJson (webapi2)'
+2025-06-08 18:11:37.803 -05:00 [INF] Route matched with {action = "CustomJson", controller = "Serialization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CustomJson() on controller SerializationController (webapi2).
+2025-06-08 18:11:37.805 -05:00 [INF] Executed action SerializationController.CustomJson (webapi2) in 1.0312ms
+2025-06-08 18:11:37.805 -05:00 [INF] Executed endpoint 'SerializationController.CustomJson (webapi2)'
+2025-06-08 18:11:37.808 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/api/serialization/custom-json - 500 null null 8.5955ms
+2025-06-08 18:51:24.442 -05:00 [INF] Application is shutting down...

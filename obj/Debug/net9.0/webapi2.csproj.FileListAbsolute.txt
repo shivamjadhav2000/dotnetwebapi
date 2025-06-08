@@ -36,3 +36,4 @@ C:\Users\jadha\Documents\myDotNet\webapi2\bin\Debug\net9.0\Serilog.Settings.Conf
 C:\Users\jadha\Documents\myDotNet\webapi2\bin\Debug\net9.0\Serilog.Sinks.Console.dll
 C:\Users\jadha\Documents\myDotNet\webapi2\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
 C:\Users\jadha\Documents\myDotNet\webapi2\bin\Debug\net9.0\Serilog.Sinks.File.dll
+C:\Users\jadha\Documents\myDotNet\webapi2\obj\Debug\net9.0\webapi2.sourcelink.json
